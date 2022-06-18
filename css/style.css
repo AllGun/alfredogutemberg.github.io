@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mochiy+Pop+P+One&family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap');
 
-h1 {
-    color: red;
-    font-family: roboto;
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
-/* img {
-    background-color: blueviolet;
-    
-} */
+/* Variables */
+:root {
+    --main-color: #54b689;
+    --main-text-color:#ccd6f6;;
+    --border-color: #999;
+    --bio-bg-color: #1e2a3a;
+    --bio-border-color: #293544;
+    --about-br-color: #111821;
+}
+
+/* General */
+.hilight {
+    color: var(--main-color);
+}
+
+/* Containers */
+#container {
+    display: flex;
+    flex-direction: row;
+    color: var(--main-text-color)
+}
+
+#bio-container {
+    flex: 1 1 20%;
+    min-height: 100vh;
+}
