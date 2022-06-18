@@ -11,10 +11,10 @@
 /* Variables */
 :root {
     --main-color: #54b689;
-    --main-text-color:#ccd6f6;;
+    --main-text-color:#CEDBFB;
     --border-color: #999;
-    --bio-bg-color: #1e2a3a;
-    --bio-border-color: #293544;
+    --bio-bg-color: #0A1930;
+    --bio-border-color: #2f3945;
     --about-br-color: #111821;
 }
 
@@ -33,4 +33,15 @@
 #bio-container {
     flex: 1 1 20%;
     min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px solid var(--bio-border-color);
+}
+
+#bio-container img {
+    width: 200px;
+    height: 200px;
+    border-radius:100px;
+    /* height: 150px; */
 }
