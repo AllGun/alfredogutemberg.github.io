@@ -39,9 +39,20 @@
     border-right: 5px solid var(--bio-border-color);
 }
 
+#about-container {
+    flex: 1 1 80%;
+    min-height: 100%;
+    background-color: var(--about-br-color);
+    padding: 50px;
+}
+
 #bio-container img {
     width: 200px;
     height: 200px;
     border-radius:100px;
     /* height: 150px; */
+}
+
+li {
+    list-style-type: none;
 }
