@@ -19,7 +19,7 @@
 }
 
 /* General */
-.hilight {
+.highlight {
     color: var(--main-color);
 }
 
@@ -46,11 +46,20 @@
     padding: 50px;
 }
 
-#bio-container img {
-    width: 200px;
-    height: 200px;
-    border-radius:100px;
-    /* height: 150px; */
+/*  Bio Container*/
+#bio-container h2 {
+    margin-bottom: 25px;
+}
+
+#bio-container p {
+    margin-bottom: 20px;
+}
+
+#bio-image {
+    width: 175px;
+    height: 175px;
+    border-radius:50%;
+    margin-bottom: 25px;
 }
 
 li {
