@@ -48,7 +48,7 @@
 
 /*  Bio Container*/
 #bio-container h2 {
-  margin-bottom: 25px;
+  margin: 25px;
 }
 
 #bio-container p {
@@ -115,7 +115,7 @@
 }
 
 #title {
-  font-size: 24px;
+  font-size: 25px;
   margin-bottom: 15px;
   font-weight: bold;
 }
@@ -189,8 +189,65 @@
 
 /* Mobile */
 @media (max-width: 450px) {
-    #container {
-        flex-direction: column;
-    }
-    
+  #container {
+    flex-direction: column;
+  }
+
+  #bio-container {
+    min-height: auto;
+    border-right: none;
+    border-bottom: 5px solid var(--bio-bg-color);
+  }
+
+  /* #bio-container h2 {
+    display: none;
+  } */
+
+  #bio-container p {
+    max-width: 60%;
+    margin: 10px auto;
+  }
+
+  #about-container {
+    text-align: center;
+    padding: 30px;
+  }
+
+  #about-container .description {
+    margin: 10px auto;
+    max-width: 100%;
+    line-height: 26px;
+  }
+
+  #btn-projects {
+    margin: 20px auto;
+  }
+
+  .skills-title {
+    text-align: left;
+  }
+
+  .skills-box {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .skills-box i {
+    font-size: 60px;
+  }
+
+  /* .skills-box ion-icons {
+    text-align: center;
+  } */
+
+  /* #title {
+        font-size: 25px;
+      } */
+}
+
+@media (min-width: 450px) {
+  h1 {
+    display: none;
+  }
 }
